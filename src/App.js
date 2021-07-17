@@ -3,9 +3,10 @@ import React, {useState} from 'react';
 import FaceBook from "./img/work/facebook-clone.PNG";
 import Airbnb from "./img/work/airbnb-clone.PNG";
 import Hulu from "./img/work/hulu-clone.PNG";
-import Langson from "./img/work/langson-archi.PNG";
+// import Langson from "./img/work/langson-archi.PNG";
 import CarRental from "./img/work/car-rental.PNG";
 import UZWIFI from './img/work/uzwifi.PNG';
+import CLEANINGCREW from "./img/work/cleaningcrew.png"
 import { Avatar } from "@material-ui/core";
 
 import{ init } from 'emailjs-com';
@@ -309,9 +310,9 @@ function App() {
 										</a>
 									</li>
 									<li class="item" data-src="./img/mock4.jpg" data-sub-html="<h6>UX PLATFORM</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-										<a href="https://langson-app-2255.web.app/">
-										<img class="img-responsive" src={Langson}  alt="Image description" />
-										<span class="hover-cap">LANGSON ARCHI</span>
+										<a href="https://cleaning-crew-255.web.app/">
+										<img class="img-responsive" src={CLEANINGCREW}  alt="Image description" />
+										<span class="hover-cap">Cleaning Crew</span>
 										</a>
 									</li>
 									<li class="item" data-src="http://vimeo.com/1084537" data-poster="img/mock3.jpg" data-sub-html="<h6>MONOBRANDING</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
